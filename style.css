@@ -1,0 +1,436 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+            /* Nav */
+
+nav
+{
+    background: green;
+    height: 60px;
+    padding: 0px 80px;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+nav .brand
+{
+    float: left;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 50px;
+    
+}
+
+nav ul
+{
+   
+   float: right;
+  
+
+}
+
+nav ul li
+{
+    list-style: none;
+    padding: 20px 18px;
+    display: inline;
+        
+}
+
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .5s ease-in-out;
+  
+}
+nav ul li a:hover
+{
+    color: #2ed573;
+    border-bottom: 1px solid white;
+}
+
+                /* diet*/
+
+span
+{
+    color: green;
+}
+
+.diet
+{
+    display: flex;
+    margin-top: 50px;
+    padding: 0px 50px;
+}
+
+.diet-title
+{
+    width: 53%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 170px;
+    box-sizing: border-box;
+}
+
+.diet-title h1
+{
+    
+    font-size: 50px;
+    
+}
+
+.diet-title span
+{
+    color: green;
+    font-weight:700;
+}
+
+.diet-title p
+{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.diet-title a
+{
+   
+    background: green;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+    text-decoration: none;
+    transition: all o.3 ease;
+
+}
+
+.diet-title a:hover
+{
+    background-color: black;
+}
+
+.diet-pic
+{
+    width: 41%;
+    padding-left: 100px;
+
+}
+
+.diet-pic img
+{
+    width: 400px;
+    margin-top: 100px;
+}
+
+
+                    /* about */
+
+.about
+{
+    background: url(images/shapes/Frame\ 58.jpg);
+    width: 100%;
+    margin-top: 200px;
+    background-size: cover;
+    height: 700px;
+}
+
+.about-area
+{
+    display: flex;
+    padding-top: 100px;
+    padding: 117px 94px;
+   
+}
+
+
+
+.about .about-area .about-img
+{
+    width: 45%;
+   
+   
+    
+}
+
+.about .about-area .about-img img
+{
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.about .about-area .about-title
+{
+    width: 50%;
+    display: block;
+    padding: 134px 152px;
+}
+
+.about .about-area .about-title h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.about .about-area .about-title p
+{
+    
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+                /* recipes */
+
+.recipes
+{
+    text-align: center;
+    margin-top: 150px;
+    padding:0 100px;
+}
+
+#recipes
+{
+    padding-bottom: 61px;
+    padding-top: 65px;
+}
+
+.recipes .recipes-area
+{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 129px;
+    
+}
+.recipes .recipes-area p
+{
+    padding: 10px 42px;
+}
+
+.recipes .recipes-area .first
+{
+    width: 24%;
+    margin-left: 10px;
+    margin: 0 40px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 20px;
+    
+   
+}
+
+.recipes .recipes-area .first .image img
+{
+    width: 279px;
+    height: 231px;
+    
+}
+
+                /* Discount */
+
+.discount
+{
+    margin-top: 80px;
+    background: url(images/shapes/banner13.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+
+                /* blog */
+
+.blog
+{
+    margin-top: 100px;
+    padding: 0 100px;
+    height: 900px;
+    background: #f1f2f6;
+    overflow: hidden;
+  
+    
+    
+    
+}
+
+.blog .title
+{
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+.blog .first
+{
+    width: 28%;
+  float: left;
+  height: 465px;
+  margin-left: 55px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  margin-top: 100px;
+  background: white;
+}
+
+.blog .first img
+{
+    width: 100%;
+}
+
+.blog .first .des
+{
+    padding: 0 10px;
+    
+}
+
+.blog .first .des h4
+{
+    color: black;
+}
+
+.blog .first .des p
+{
+    color: black;
+    padding-bottom: 20px;
+}
+
+.blog .first .des a
+{
+    text-decoration: none;
+    background: green;
+    color: white;
+    margin-top: 20px;
+    
+    padding: 10px 20px;
+}
+
+            /* Subscriber Section */
+
+.subscriber
+{
+    margin-top: 150px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 208px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.subscriber h1
+{
+    color: green;
+}
+
+.subscriber .safe
+{
+    display: flex;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+}
+
+.subscriber .first
+{
+    width: 34%;
+    
+    
+}
+
+.subscriber .first:last-child
+{
+    border-right: none;
+}
+
+
+                /* Footer */
+
+footer
+{
+    height: 200px;
+    background:green;
+    margin-top: 119px;
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+#contact
+{
+    padding: 35px 50px;
+}
+footer .col1
+{
+    width: 30%;
+    
+    
+}
+
+footer .col1 .info
+{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+footer .col1 .info h1
+{
+    color: white;
+    font-weight: 400;
+}
+
+footer .col1 .info a
+{
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    transition: .5s ease-in-out;
+}
+
+footer .col1 .info .input
+{
+    margin-top: 44px;
+}
+footer .col1 .info input
+{
+    width: 255px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+footer .col1 .info label
+{
+    color: white;
+}
+
+footer .col1 .info .input button
+{
+    padding: 12px 24px;
+    color: green;
+    font-weight: 700;
+}
+
+footer .col1 .info a:hover
+{
+    color: #2ed573;
+    
+}
+
