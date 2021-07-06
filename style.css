@@ -27,6 +27,7 @@ nav .brand
     text-align: center;
     text-decoration: none;
     color: white;
+    margin-top: 5px;
     font-size: 25px;
     font-weight: 700;
     margin-left: 50px;
@@ -173,7 +174,7 @@ span
 
 .about .about-area .about-img img
 {
-    border-radius: 50%;
+    border-radius: 7%;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
@@ -181,7 +182,7 @@ span
 {
     width: 50%;
     display: block;
-    padding: 134px 152px;
+    padding: 87px 152px;
 }
 
 .about .about-area .about-title h1
@@ -189,6 +190,7 @@ span
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 3px;
+    
 }
 
 .about .about-area .about-title p
@@ -214,6 +216,12 @@ span
     padding-top: 65px;
 }
 
+#recipes .recipe-title
+{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
 .recipes .recipes-area
 {
     margin-top: 50px;
@@ -233,8 +241,14 @@ span
     margin: 0 40px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 20px;
-    
+    overflow: hidden;
    
+}
+
+.recipes .recipes-area .first h1
+{
+    color: green;
+
 }
 
 .recipes .recipes-area .first .image img
@@ -275,6 +289,12 @@ span
     text-align: center;
     margin-top: 100px;
    
+}
+
+.blog .title h1
+{
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 .blog .first
